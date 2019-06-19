@@ -3,6 +3,7 @@
 //  macOS Example
 //
 //  Created by Elf Sundae on 2019/06/19.
+//  Copyright © 2019 https://0x123.com. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -18,6 +19,7 @@
 {
     // Insert code here to initialize your application
 }
+
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification
 {
