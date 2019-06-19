@@ -10,7 +10,6 @@
 		E7BEC84322BA53E100653343 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BEC84222BA53E100653343 /* AppDelegate.m */; };
 		E7BEC84622BA53E100653343 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BEC84522BA53E100653343 /* ViewController.m */; };
 		E7BEC84B22BA53E200653343 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7BEC84A22BA53E200653343 /* Assets.xcassets */; };
-		E7BEC84E22BA53E200653343 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7BEC84C22BA53E200653343 /* LaunchScreen.storyboard */; };
 		E7BEC85122BA53E200653343 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BEC85022BA53E200653343 /* main.m */; };
 		E7BEC85D22BA53FE00653343 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BEC85C22BA53FE00653343 /* AppDelegate.m */; };
 		E7BEC85F22BA53FF00653343 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7BEC85E22BA53FF00653343 /* Assets.xcassets */; };
@@ -28,6 +27,7 @@
 		E7BEC89922BA545E00653343 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BEC89822BA545E00653343 /* ExtensionDelegate.m */; };
 		E7BEC89B22BA545F00653343 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7BEC89A22BA545F00653343 /* Assets.xcassets */; };
 		E7BEC89F22BA545F00653343 /* watchOS Example.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E7BEC88322BA545D00653343 /* watchOS Example.app */; };
+		E7BEC8AC22BA56F100653343 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7BEC8AA22BA56F100653343 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,7 +79,6 @@
 		E7BEC84422BA53E100653343 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E7BEC84522BA53E100653343 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E7BEC84A22BA53E200653343 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E7BEC84D22BA53E200653343 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7BEC84F22BA53E200653343 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7BEC85022BA53E200653343 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E7BEC85922BA53FE00653343 /* macOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "macOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +109,7 @@
 		E7BEC89822BA545E00653343 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
 		E7BEC89A22BA545F00653343 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7BEC89C22BA545F00653343 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7BEC8AB22BA56F100653343 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,8 +176,8 @@
 				E7BEC84422BA53E100653343 /* ViewController.h */,
 				E7BEC84522BA53E100653343 /* ViewController.m */,
 				E7BEC84A22BA53E200653343 /* Assets.xcassets */,
-				E7BEC84C22BA53E200653343 /* LaunchScreen.storyboard */,
 				E7BEC84F22BA53E200653343 /* Info.plist */,
+				E7BEC8AA22BA56F100653343 /* LaunchScreen.storyboard */,
 				E7BEC85022BA53E200653343 /* main.m */,
 			);
 			path = "iOS Example";
@@ -378,8 +378,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7BEC84E22BA53E200653343 /* LaunchScreen.storyboard in Resources */,
 				E7BEC84B22BA53E200653343 /* Assets.xcassets in Resources */,
+				E7BEC8AC22BA56F100653343 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,14 +475,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E7BEC84C22BA53E200653343 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E7BEC84D22BA53E200653343 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 		E7BEC86022BA53FF00653343 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -505,6 +497,14 @@
 				E7BEC88622BA545D00653343 /* Base */,
 			);
 			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		E7BEC8AA22BA56F100653343 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7BEC8AB22BA56F100653343 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
