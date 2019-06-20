@@ -1,4 +1,4 @@
-use_frameworks!
+# use_frameworks!
 
 workspace 'PodSpec.xcworkspace'
 project 'Example/Example.xcodeproj'
