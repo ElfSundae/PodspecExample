@@ -1,10 +1,10 @@
 # use_frameworks!
 
-workspace 'PodSpec.xcworkspace'
+workspace 'PodspecExample.xcworkspace'
 project 'Example/Example.xcodeproj'
 
 abstract_target 'Example' do
-    pod 'PodSpec', :path => '.'
+    pod 'PodspecExample', :path => '.'
 
     target 'iOS Example' do
         platform :ios, '9.0'
